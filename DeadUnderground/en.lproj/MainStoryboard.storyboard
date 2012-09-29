@@ -95,6 +95,23 @@
             </objects>
             <point key="canvasLocation" x="652" y="1153"/>
         </scene>
+        <!--View Controller - Contact Us-->
+        <scene sceneID="HMy-v5-KeV">
+            <objects>
+                <viewController id="3JO-uK-cqq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zIf-w1-lTU">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contact Us" id="g1e-YR-lLs">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Xjb-Rz-bds"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gLn-FC-U16" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="1135"/>
+        </scene>
         <!--Table View Controller - More-->
         <scene sceneID="qBo-qj-6QX">
             <objects>
@@ -119,6 +136,9 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <connections>
+                                    <segue destination="3JO-uK-cqq" kind="push" id="WeV-IW-7Pl"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="4b7-7f-UyW" style="IBUITableViewCellStyleDefault" id="fae-Cn-8ex">
                                 <rect key="frame" x="0.0" y="66" width="320" height="44"/>
@@ -135,15 +155,18 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <connections>
+                                    <segue destination="V0m-Me-lkl" kind="push" id="ifg-yK-0TL"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" editingAccessoryType="disclosureIndicator" textLabel="QQ0-jT-xH2" style="IBUITableViewCellStyleDefault" id="DzQ-tp-lHW">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="QQ0-jT-xH2" style="IBUITableViewCellStyleDefault" id="DzQ-tp-lHW">
                                 <rect key="frame" x="0.0" y="110" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ0-jT-xH2">
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Photo Gallery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ0-jT-xH2">
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -151,6 +174,9 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <connections>
+                                    <segue destination="GLl-jS-HJ4" kind="push" id="UzP-1f-ccP"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
@@ -161,6 +187,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="41w-r1-mnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1185" y="1817"/>
+        </scene>
+        <!--View Controller - Plan a Visit-->
+        <scene sceneID="wT1-21-2ia">
+            <objects>
+                <viewController id="V0m-Me-lkl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A1K-eh-40i">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Plan a Visit" id="ipG-JD-dk0">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="91C-ax-nVA"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afz-Uq-8YB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1914" y="1815"/>
+        </scene>
+        <!--View Controller - Photo Gallery-->
+        <scene sceneID="HcK-bX-GO9">
+            <objects>
+                <viewController id="GLl-jS-HJ4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zDO-G1-jUu">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Photo Gallery" id="loq-yS-B9m">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="pPA-m2-Xp1"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRL-Ie-Vaz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="2483"/>
         </scene>
         <!--Navigation Controller - Search-->
         <scene sceneID="05U-Jc-TGh">
