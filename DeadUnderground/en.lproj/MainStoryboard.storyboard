@@ -9,7 +9,7 @@
             <objects>
                 <viewController title="Home" id="2" customClass="FirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="f5f-DD-GdR">
@@ -37,7 +37,7 @@
                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <attributedString key="attributedText">
                                         <fragment>
-                                            <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.    Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                            <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.    Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.    Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                             <attributes>
                                                 <font key="NSFont" size="14" name="Helvetica"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="11"/>
@@ -67,31 +67,23 @@
             <objects>
                 <viewController title="Search" id="3" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the second view controller — an instance of SecondViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="cQR-IW-sY8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
+                            <searchBar contentMode="redraw" barStyle="blackOpaque" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bGP-ke-n5S">
                                 <textInputTraits key="textInputTraits"/>
-                            </textView>
+                                <scopeButtonTitles>
+                                    <string>Name</string>
+                                    <string>Date of Death</string>
+                                    <string>Age at Death</string>
+                                </scopeButtonTitles>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="22" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0q6-IA-e8m"/>
-                            <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fR4-wH-Ih7"/>
-                            <constraint firstItem="23" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fzb-YA-SeR"/>
-                            <constraint firstAttribute="centerY" secondItem="23" secondAttribute="centerY" type="user" id="llH-eD-iPS"/>
-                            <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
-                            <constraint firstItem="23" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="40" type="user" id="yUx-Ee-KEk"/>
+                            <constraint firstItem="bGP-ke-n5S" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="m3b-en-lEC"/>
+                            <constraint firstItem="bGP-ke-n5S" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="sWB-bl-Qgk"/>
+                            <constraint firstItem="bGP-ke-n5S" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="z3G-Ob-iqs"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="6"/>
@@ -105,13 +97,40 @@
             <objects>
                 <viewController title="Map" id="CDz-RC-ZzC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sD3-pK-k0l">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkg-Ul-5xM">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" image="globe_64.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-L7-aTR">
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="LBx-nI-Tdg" appends="YES" id="apj-L5-xwK"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="top" secondItem="Bkg-Ul-5xM" secondAttribute="top" type="default" id="6rP-yE-NaU"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="trailing" secondItem="Bkg-Ul-5xM" secondAttribute="trailing" type="default" id="PSo-d2-A7e"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="leading" secondItem="Bkg-Ul-5xM" secondAttribute="leading" type="default" id="b3W-ce-HkD"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerY" secondItem="Bkg-Ul-5xM" secondAttribute="centerY" type="default" id="oMr-fC-lRr"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerX" secondItem="Bkg-Ul-5xM" secondAttribute="centerX" type="default" id="qbI-38-8cf"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="bottom" secondItem="Bkg-Ul-5xM" secondAttribute="bottom" type="default" id="ylm-Ib-2YO"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="trailing" secondItem="sD3-pK-k0l" secondAttribute="trailing" type="default" id="5ra-lp-O4G"/>
+                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="bottom" secondItem="sD3-pK-k0l" secondAttribute="bottom" type="default" id="ULO-pg-7Pc"/>
+                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="leading" secondItem="sD3-pK-k0l" secondAttribute="leading" type="default" id="and-oO-A3f"/>
+                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="top" secondItem="sD3-pK-k0l" secondAttribute="top" type="default" id="z0i-hy-ACd"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="globe_24.png" id="mYf-kv-pO2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6d-hN-VuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="LBx-nI-Tdg"/>
             </objects>
             <point key="canvasLocation" x="652" y="1153"/>
         </scene>
@@ -122,7 +141,50 @@
                     <view key="view" contentMode="scaleToFill" id="zIf-w1-lTU">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="0uf-PC-9X8">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="TNQ-Kn-jkT">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" image="phone_64.png" translatesAutoresizingMaskIntoConstraints="NO" id="UhX-J7-Qwk">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="200" id="BrM-sP-gmK"/>
+                                                <constraint firstAttribute="height" constant="100" id="Y7G-Tz-xLg"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="UhX-J7-Qwk" firstAttribute="centerY" secondItem="TNQ-Kn-jkT" secondAttribute="centerY" type="default" id="fUt-Ix-c9O"/>
+                                        <constraint firstItem="UhX-J7-Qwk" firstAttribute="centerX" secondItem="TNQ-Kn-jkT" secondAttribute="centerX" type="default" id="gMe-Kv-cQq"/>
+                                    </constraints>
+                                </view>
+                                <textView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="0Aw-Ud-euq">
+                                    <rect key="frame" x="0.0" y="120" width="320" height="336"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <attributedString key="attributedText">
+                                        <fragment>
+                                            <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0uf-PC-9X8" firstAttribute="top" secondItem="zIf-w1-lTU" secondAttribute="top" type="default" id="QiU-Fs-5YR"/>
+                            <constraint firstItem="0uf-PC-9X8" firstAttribute="leading" secondItem="zIf-w1-lTU" secondAttribute="leading" type="default" id="XOD-NY-GSA"/>
+                            <constraint firstItem="0uf-PC-9X8" firstAttribute="trailing" secondItem="zIf-w1-lTU" secondAttribute="trailing" type="default" id="u5b-Rm-VaX"/>
+                            <constraint firstItem="0uf-PC-9X8" firstAttribute="bottom" secondItem="zIf-w1-lTU" secondAttribute="bottom" type="default" id="vEh-iC-zYq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Contact Us" id="g1e-YR-lLs">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Xjb-Rz-bds"/>
@@ -273,6 +335,7 @@
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
@@ -294,19 +357,10 @@
     <resources>
         <image name="HomePic.JPG" width="360" height="480"/>
         <image name="globe_24.png" width="24" height="24"/>
+        <image name="globe_64.png" width="64" height="64"/>
         <image name="home_24.png" width="24" height="24"/>
+        <image name="phone_64.png" width="64" height="64"/>
     </resources>
-    <classes>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
