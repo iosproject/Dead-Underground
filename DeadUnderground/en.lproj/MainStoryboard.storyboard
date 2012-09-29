@@ -92,45 +92,29 @@
             </objects>
             <point key="canvasLocation" x="653" y="498"/>
         </scene>
-        <!--View Controller - Map-->
+        <!--First View Controller - Map-->
         <scene sceneID="s4p-98-BOZ">
             <objects>
-                <viewController title="Map" id="CDz-RC-ZzC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="sD3-pK-k0l">
+                <viewController title="Map" id="CDz-RC-ZzC" customClass="FirstViewController" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="sD3-pK-k0l">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkg-Ul-5xM">
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="center" image="globe_64.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-L7-aTR">
-                                        <gestureRecognizers/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="LBx-nI-Tdg" appends="YES" id="apj-L5-xwK"/>
-                                        </connections>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="top" secondItem="Bkg-Ul-5xM" secondAttribute="top" type="default" id="6rP-yE-NaU"/>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="trailing" secondItem="Bkg-Ul-5xM" secondAttribute="trailing" type="default" id="PSo-d2-A7e"/>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="leading" secondItem="Bkg-Ul-5xM" secondAttribute="leading" type="default" id="b3W-ce-HkD"/>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerY" secondItem="Bkg-Ul-5xM" secondAttribute="centerY" type="default" id="oMr-fC-lRr"/>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerX" secondItem="Bkg-Ul-5xM" secondAttribute="centerX" type="default" id="qbI-38-8cf"/>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="bottom" secondItem="Bkg-Ul-5xM" secondAttribute="bottom" type="default" id="ylm-Ib-2YO"/>
-                                </constraints>
-                            </scrollView>
+                            <imageView multipleTouchEnabled="YES" contentMode="center" image="globe_64.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-L7-aTR">
+                                <gestureRecognizers/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="trailing" secondItem="sD3-pK-k0l" secondAttribute="trailing" type="default" id="5ra-lp-O4G"/>
-                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="bottom" secondItem="sD3-pK-k0l" secondAttribute="bottom" type="default" id="ULO-pg-7Pc"/>
-                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="leading" secondItem="sD3-pK-k0l" secondAttribute="leading" type="default" id="and-oO-A3f"/>
-                            <constraint firstItem="Bkg-Ul-5xM" firstAttribute="top" secondItem="sD3-pK-k0l" secondAttribute="top" type="default" id="z0i-hy-ACd"/>
+                            <constraint firstItem="FXy-L7-aTR" firstAttribute="top" secondItem="sD3-pK-k0l" secondAttribute="top" type="default" id="1aD-CW-FEe"/>
+                            <constraint firstItem="FXy-L7-aTR" firstAttribute="bottom" secondItem="sD3-pK-k0l" secondAttribute="bottom" type="default" id="Ig2-9k-eaA"/>
+                            <constraint firstItem="FXy-L7-aTR" firstAttribute="trailing" secondItem="sD3-pK-k0l" secondAttribute="trailing" type="default" id="MfM-pF-ZMZ"/>
+                            <constraint firstItem="FXy-L7-aTR" firstAttribute="leading" secondItem="sD3-pK-k0l" secondAttribute="leading" type="default" id="hFv-Hu-av5"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="globe_24.png" id="mYf-kv-pO2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6d-hN-VuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pinchGestureRecognizer id="LBx-nI-Tdg"/>
             </objects>
             <point key="canvasLocation" x="652" y="1153"/>
         </scene>
@@ -361,6 +345,17 @@
         <image name="home_24.png" width="24" height="24"/>
         <image name="phone_64.png" width="64" height="64"/>
     </resources>
+    <classes>
+        <class className="FirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
