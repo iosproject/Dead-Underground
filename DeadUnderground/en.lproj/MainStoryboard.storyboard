@@ -37,10 +37,26 @@
                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <attributedString key="attributedText">
                                         <fragment>
-                                            <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.    Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.    Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                            <string key="content">With over 2000 individuals interred, The First Presbyterian Church Burial Grounds holds the remains of some of the most influential men and women in Elizabeth, New Jersey, and United States history. With some markers dating back to the late 17th century, and spanning to the late 19th century, the grounds contain: leaders of the revolution, soldiers and officers who fought in the Revolutionary War, War of 1812, and Civil War, pioneers in education and state and local heroes.
+The First Presbyterian Burial Grounds are a perfect place to learn about the history of our city and state through the individuals who helped build, expand and defend them.</string>
                                             <attributes>
                                                 <font key="NSFont" size="14" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="11"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" paragraphSpacing="2" paragraphSpacingBefore="2" firstLineHeadIndent="10" defaultTabInterval="36">
+                                                    <tabStops>
+                                                        <textTab alignment="left" location="36"/>
+                                                        <textTab alignment="left" location="72"/>
+                                                        <textTab alignment="left" location="108"/>
+                                                        <textTab alignment="left" location="144"/>
+                                                        <textTab alignment="left" location="180"/>
+                                                        <textTab alignment="left" location="216"/>
+                                                        <textTab alignment="left" location="252"/>
+                                                        <textTab alignment="left" location="288"/>
+                                                        <textTab alignment="left" location="324"/>
+                                                        <textTab alignment="left" location="360"/>
+                                                        <textTab alignment="left" location="396"/>
+                                                        <textTab alignment="left" location="432"/>
+                                                    </tabStops>
+                                                </paragraphStyle>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
