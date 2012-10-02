@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F0D6AC9161B4E5100D864C1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D6AC8161B4E5100D864C1 /* MapViewController.m */; };
+		3F0D6ACB161B54CA00D864C1 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D6ACA161B54CA00D864C1 /* Map.png */; };
 		CE4037E3161696F00073E618 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4037E2161696F00073E618 /* UIKit.framework */; };
 		CE4037E5161696F00073E618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4037E4161696F00073E618 /* Foundation.framework */; };
 		CE4037E7161696F00073E618 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4037E6161696F00073E618 /* CoreGraphics.framework */; };
@@ -634,6 +635,7 @@
 /* Begin PBXFileReference section */
 		3F0D6AC7161B4DFB00D864C1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
 		3F0D6AC8161B4E5100D864C1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3F0D6ACA161B54CA00D864C1 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
 		CE4037DE161696F00073E618 /* DeadUnderground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadUnderground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4037E2161696F00073E618 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE4037E4161696F00073E618 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1341,6 +1343,7 @@
 		CE403810161697510073E618 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3F0D6ACA161B54CA00D864C1 /* Map.png */,
 				CE403816161697510073E618 /* HomePic.JPG */,
 				CE403818161697510073E618 /* IMG_2089.JPG */,
 				CE403819161697510073E618 /* TWG Retina Icons */,
@@ -2633,6 +2636,7 @@
 				CE403CE7161697D10073E618 /* Default.png in Resources */,
 				CE403CE9161698130073E618 /* Default@2x.png in Resources */,
 				CE403CEB1616982B0073E618 /* Default-568h@2x.png in Resources */,
+				3F0D6ACB161B54CA00D864C1 /* Map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

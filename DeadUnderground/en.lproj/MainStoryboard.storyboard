@@ -102,11 +102,11 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtE-XM-B7s">
                                 <subviews>
-                                    <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="globe_64.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-L7-aTR">
+                                    <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Map.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-L7-aTR">
                                         <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="204" id="51w-xA-zQJ"/>
-                                            <constraint firstAttribute="width" constant="91" id="TbN-Yi-7I8"/>
+                                            <constraint firstAttribute="width" constant="323" id="Wk1-ZX-7EZ"/>
+                                            <constraint firstAttribute="height" constant="456" id="otx-Po-8yf"/>
                                         </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="GdS-sJ-xib" appends="YES" id="Ten-rT-h4J"/>
@@ -114,10 +114,10 @@
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerX" secondItem="jtE-XM-B7s" secondAttribute="centerX" type="default" id="1V0-iJ-2am"/>
-                                    <constraint firstAttribute="bottom" secondItem="FXy-L7-aTR" secondAttribute="bottom" constant="130" id="2vA-h4-9mW"/>
-                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerY" secondItem="jtE-XM-B7s" secondAttribute="centerY" type="default" id="6Xr-VW-vJ1"/>
-                                    <constraint firstAttribute="trailing" secondItem="FXy-L7-aTR" secondAttribute="trailing" constant="124" id="uHA-0b-rkP"/>
+                                    <constraint firstAttribute="trailing" secondItem="FXy-L7-aTR" secondAttribute="trailing" constant="10" id="29l-nk-Xvo"/>
+                                    <constraint firstAttribute="bottom" secondItem="FXy-L7-aTR" secondAttribute="bottom" constant="8" id="34S-Fo-cpW"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="leading" secondItem="jtE-XM-B7s" secondAttribute="leading" constant="7" id="E9H-Fm-mGK"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="top" secondItem="jtE-XM-B7s" secondAttribute="top" type="default" id="Vgp-1d-Ssm"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -362,8 +362,8 @@
     </scenes>
     <resources>
         <image name="HomePic.JPG" width="360" height="480"/>
+        <image name="Map.png" width="1012" height="737"/>
         <image name="globe_24.png" width="24" height="24"/>
-        <image name="globe_64.png" width="64" height="64"/>
         <image name="home_24.png" width="24" height="24"/>
         <image name="phone_64.png" width="64" height="64"/>
     </resources>
