@@ -100,21 +100,43 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView multipleTouchEnabled="YES" contentMode="center" image="globe_64.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-L7-aTR">
-                                <gestureRecognizers/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtE-XM-B7s">
+                                <subviews>
+                                    <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="globe_64.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-L7-aTR">
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="204" id="51w-xA-zQJ"/>
+                                            <constraint firstAttribute="width" constant="91" id="TbN-Yi-7I8"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="GdS-sJ-xib" appends="YES" id="Ten-rT-h4J"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerX" secondItem="jtE-XM-B7s" secondAttribute="centerX" type="default" id="1V0-iJ-2am"/>
+                                    <constraint firstAttribute="bottom" secondItem="FXy-L7-aTR" secondAttribute="bottom" constant="130" id="2vA-h4-9mW"/>
+                                    <constraint firstItem="FXy-L7-aTR" firstAttribute="centerY" secondItem="jtE-XM-B7s" secondAttribute="centerY" type="default" id="6Xr-VW-vJ1"/>
+                                    <constraint firstAttribute="trailing" secondItem="FXy-L7-aTR" secondAttribute="trailing" constant="124" id="uHA-0b-rkP"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FXy-L7-aTR" firstAttribute="top" secondItem="sD3-pK-k0l" secondAttribute="top" type="default" id="1aD-CW-FEe"/>
-                            <constraint firstItem="FXy-L7-aTR" firstAttribute="bottom" secondItem="sD3-pK-k0l" secondAttribute="bottom" type="default" id="Ig2-9k-eaA"/>
-                            <constraint firstItem="FXy-L7-aTR" firstAttribute="trailing" secondItem="sD3-pK-k0l" secondAttribute="trailing" type="default" id="MfM-pF-ZMZ"/>
-                            <constraint firstItem="FXy-L7-aTR" firstAttribute="leading" secondItem="sD3-pK-k0l" secondAttribute="leading" type="default" id="hFv-Hu-av5"/>
+                            <constraint firstAttribute="trailing" secondItem="jtE-XM-B7s" secondAttribute="trailing" constant="-13" id="5sK-Iv-RKB"/>
+                            <constraint firstItem="jtE-XM-B7s" firstAttribute="leading" secondItem="sD3-pK-k0l" secondAttribute="leading" constant="-7" id="6ti-i3-RM7"/>
+                            <constraint firstAttribute="bottom" secondItem="jtE-XM-B7s" secondAttribute="bottom" constant="-9" id="tQy-OA-95I"/>
+                            <constraint firstItem="jtE-XM-B7s" firstAttribute="top" secondItem="sD3-pK-k0l" secondAttribute="top" type="default" id="wGU-jl-Uhb"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="globe_24.png" id="mYf-kv-pO2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6d-hN-VuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="GdS-sJ-xib">
+                    <connections>
+                        <action selector="handlePinch:" destination="CDz-RC-ZzC" id="0Pe-QW-FBA"/>
+                    </connections>
+                </pinchGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="652" y="1153"/>
         </scene>
@@ -351,6 +373,9 @@
         </class>
         <class className="MapViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="handlePinch:" candidateClass="UIPinchGestureRecognizer"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

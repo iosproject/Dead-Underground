@@ -8,22 +8,12 @@
 
 #import "MapViewController.h"
 
-@interface MapViewController ()
-
-@end
-
 @implementation MapViewController
 
-- (void)viewDidLoad
+- (IBAction) handlePinch:(UIPinchGestureRecognizer *)recognizer
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    recognizer.view.transform = CGAffineTransformScale(recognizer.view.transform, recognizer.scale, recognizer.scale);
+    recognizer.scale = 1;
 }
 
 @end

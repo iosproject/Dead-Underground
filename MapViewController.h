@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MapViewController : UIViewController
-
+- (IBAction) handlePinch:(UIPinchGestureRecognizer *)recognizer;
 @end
